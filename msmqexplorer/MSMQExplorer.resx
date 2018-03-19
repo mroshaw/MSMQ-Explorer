@@ -1,0 +1,3793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerReceive.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainerReceive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainerDetail.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="splitContainerDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bufferedTreeViewRecQueues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="contextMenuStripQueue.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>828, 17</value>
+  </metadata>
+  <data name="toolStripMenuItemNewQueueSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemNewQueueSend.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="toolStripMenuItemDeleteQueueSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemDeleteQueueSend.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="toolStripMenuItemQueuePurge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemQueuePurge.Text" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 6</value>
+  </data>
+  <data name="toolStripMenuItemQueueProps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemQueueProps.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="contextMenuStripQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 98</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripQueue.Name" xml:space="preserve">
+    <value>contextMenuStripQueue</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bufferedTreeViewRecQueues.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="imageListMsmq.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>690, 17</value>
+  </metadata>
+  <data name="imageListMsmq.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADY
+        CgAAAk1TRnQBSQFMAgEBBgEAAaABDAGgAQwBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wkAAf8BuwNxAQgB9AFx
+        MAABGwV6AZoB/wGdAXEB8gH0AfICkAFxAQAO/yEABnoB8wEIAXEB/wIAAfIBnQJxEOwgAAZ6Af8FAARx
+        AewB7Qz/Ae0B7CAABXoBmgEABHEFAAHsAf8B7Qr/Ae0B/wHsIAAFegGaAQACcQGdAfICAAH/AXEBCAHs
+        Av8B7Qj/Ae0C/wHsIAAFegGaAQABcQKQAfIB9AHyAXEBnQH/AewD/wGSAf8B8gLsAfIB/wGSA/8B7CAA
+        BnoB/wFxAfQBCANxAbsB/wEAAewE/wGSAewCBwHsAZIE/wHsIAAGegGaBv8B9gEaAQAB7AP/Ae8B7QH0
+        Av8B9AHtAe8D/wHsIAAIegGaAXoDmgJ6AQAB7AL/AfcBkgb/AZIB9wL/AewgAA96AQAB7AH/AZIB9wj/
+        AfcBkgH/AewwAAHsAe0B7wr/Ae8B7QHsIAAP7AEAAewB7wz/Ae8B7CAAB+wBvAgAEOwgAAHyBewB8AH/
+        eAABGw56ARsGAAGSCOwBkgEbDnoBGwkAARoBdAFGAXQBGgIAEHoBGwR6Af8B7AH3Bv8B9wHsEHoBGwV6
+        AZoB/wGTBUYBkwEAFXoB/wHsAf8B9wT/AfcB8wHsFnoB9AEaB0YBGhV6Af8B7AL/AfcC7AH3Av8B7BZ6
+        Af8BdAFGBZMBRgF0FXoB/wHsAv8B7AL/AewC/wHsFnoBAAJGBf8CRhV6Af8B7AH/AewE/wHsAf8B7BZ6
+        Af8BdAFGBZMBRgF0FXoB/wLsBv8C7AF6AfQB/wGaAf8B9BB6AfQBGgdGARoVegEAAe8I7AH3AXoB/wEA
+        Af8BAAH/EHoBmgH/AZMFRgGTAQAVegr/AQABegH/AUYBAAFGAf8RegEbAf8BGgF0AUYBdAEaAf8BAB96
+        AQABegH/A0YB/xJ6AZoB9AH/AQAB/wH0AZoRAA96AwADRgsAD3oBABDsEAAB7AH/A0YB/wrsEAAH7AG8
+        CAAP7AEAAewB/wNGAf8B7AG8CAAP7AEAAfIF7AHwAf8IAAfsAbwIAAHyAf8DRgH/AfAB/wgAB+wBvBgA
+        AfIF7AHwAf8KAANGCwAB8gXsAfAB/yoAA0YbAAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYA
+        AQEWAAP/AQAB/wEAAv8GAAGAAQEFAAEwBgABAQHwBgABAgEfBgABAgEYBgABAggAAQEHAAEBBwABAQcA
+        AQEGAAL/BwABAQcAAf8HAAP/BAAE/wYAAfwDAAH/AYMHAAEBFgABAhMAAQQBAAEoAgABAQMAAQEBEAIA
+        AQEDAAEBAwABEQL/AQABAQHHAf8BAAEBAgAC/wIAAv8BAAH/AQABAQEAAf8BAAEBAQAB/wEAAf8BAAH/
+        AQAD/wEAAf8BxwH/AQAF/wHHA/8L
+</value>
+  </data>
+  <data name="bufferedTreeViewRecQueues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 34</value>
+  </data>
+  <data name="bufferedTreeViewRecQueues.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bufferedTreeViewRecQueues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 251</value>
+  </data>
+  <data name="bufferedTreeViewRecQueues.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewRecQueues.Name" xml:space="preserve">
+    <value>bufferedTreeViewRecQueues</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewRecQueues.Type" xml:space="preserve">
+    <value>MSMQExplorer.BufferedTreeView, MSMQExplorer, Version=1.31.6635.39097, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewRecQueues.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewRecQueues.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelSelectedQueueName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelSelectedQueueName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectedQueueName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSelectedQueueName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 294</value>
+  </data>
+  <data name="labelSelectedQueueName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="labelSelectedQueueName.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="labelSelectedQueueName.Text" xml:space="preserve">
+    <value>Queue:</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedQueueName.Name" xml:space="preserve">
+    <value>labelSelectedQueueName</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedQueueName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedQueueName.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedQueueName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxSelectedRecQueue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxSelectedRecQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 291</value>
+  </data>
+  <data name="textBoxSelectedRecQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 20</value>
+  </data>
+  <data name="textBoxSelectedRecQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedRecQueue.Name" xml:space="preserve">
+    <value>textBoxSelectedRecQueue</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedRecQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedRecQueue.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedRecQueue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelCurrHost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCurrHost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCurrHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 10</value>
+  </data>
+  <data name="labelCurrHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="labelCurrHost.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="labelCurrHost.Text" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="&gt;&gt;labelCurrHost.Name" xml:space="preserve">
+    <value>labelCurrHost</value>
+  </data>
+  <data name="&gt;&gt;labelCurrHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCurrHost.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;labelCurrHost.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 6</value>
+  </data>
+  <data name="buttonConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="buttonConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 17</value>
+  </metadata>
+  <data name="buttonConnect.ToolTip" xml:space="preserve">
+    <value>Refresh queue list</value>
+  </data>
+  <data name="&gt;&gt;buttonConnect.Name" xml:space="preserve">
+    <value>buttonConnect</value>
+  </data>
+  <data name="&gt;&gt;buttonConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonConnect.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonConnect.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxRecHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxRecHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 7</value>
+  </data>
+  <data name="textBoxRecHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="textBoxRecHost.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="textBoxRecHost.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="textBoxRecHost.ToolTip" xml:space="preserve">
+    <value>Receving queue host</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecHost.Name" xml:space="preserve">
+    <value>textBoxRecHost</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecHost.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecHost.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel1.Name" xml:space="preserve">
+    <value>splitContainerDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerDetail</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxSelectedMsgId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxSelectedMsgId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 291</value>
+  </data>
+  <data name="textBoxSelectedMsgId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
+  </data>
+  <data name="textBoxSelectedMsgId.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedMsgId.Name" xml:space="preserve">
+    <value>textBoxSelectedMsgId</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedMsgId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedMsgId.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedMsgId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelSelectedMsgId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelSelectedMsgId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectedMsgId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSelectedMsgId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 294</value>
+  </data>
+  <data name="labelSelectedMsgId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="labelSelectedMsgId.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="labelSelectedMsgId.Text" xml:space="preserve">
+    <value>Message ID:</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMsgId.Name" xml:space="preserve">
+    <value>labelSelectedMsgId</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMsgId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMsgId.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;labelSelectedMsgId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="olvColumnId.Text" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="olvColumnLabel.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="olvColumnLabel.Width" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="olvColumnMachineName.Text" xml:space="preserve">
+    <value>Source Machine</value>
+  </data>
+  <data name="olvColumnMachineName.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="olvColumnSentTime.Text" xml:space="preserve">
+    <value>Sent Time</value>
+  </data>
+  <data name="olvColumnSentTime.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="olvColumnArrivedTime.Text" xml:space="preserve">
+    <value>Arrived Time</value>
+  </data>
+  <data name="olvColumnPriority.Text" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="olvColumnMessageType.Text" xml:space="preserve">
+    <value>Message Type</value>
+  </data>
+  <data name="olvColumnTransactionId.DisplayIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="olvColumnTransactionId.Text" xml:space="preserve">
+    <value>Transaction Id</value>
+  </data>
+  <data name="olvColumnAppSpecific.Text" xml:space="preserve">
+    <value>App Specific</value>
+  </data>
+  <data name="olvColumnAuthenticated.DisplayIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="olvColumnAuthenticated.Text" xml:space="preserve">
+    <value>Authenticated</value>
+  </data>
+  <data name="olvColumnAuthenticationProviderName.Text" xml:space="preserve">
+    <value>Authentication Provider Name</value>
+  </data>
+  <data name="olvColumnAuthenticationProviderType.Text" xml:space="preserve">
+    <value>Authentication Provider Type</value>
+  </data>
+  <data name="olvColumnCorrelationId.Text" xml:space="preserve">
+    <value>Correlation Id</value>
+  </data>
+  <data name="olvColumnDigitalSignature.Text" xml:space="preserve">
+    <value>Digital Signature</value>
+  </data>
+  <data name="olvColumnEncryptionAlgorithm.Text" xml:space="preserve">
+    <value>Encryption Algorithm</value>
+  </data>
+  <data name="olvColumnHashAlgorithm.DisplayIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="olvColumnHashAlgorithm.Text" xml:space="preserve">
+    <value>Hash Algorithm</value>
+  </data>
+  <data name="olvColumnIsFirstInTransaction.Text" xml:space="preserve">
+    <value>Is First In Transaction</value>
+  </data>
+  <data name="olvColumnIsLastInTransaction.Text" xml:space="preserve">
+    <value>Is Last In Transaction</value>
+  </data>
+  <data name="olvColumnLookupId.Text" xml:space="preserve">
+    <value>Lookup Id</value>
+  </data>
+  <data name="olvColumnRecoverable.Text" xml:space="preserve">
+    <value>Recoverable</value>
+  </data>
+  <data name="olvColumnSenderId.Text" xml:space="preserve">
+    <value>Sender Id</value>
+  </data>
+  <data name="olvColumnSenderVersion.Text" xml:space="preserve">
+    <value>Sender Version</value>
+  </data>
+  <data name="fastObjectListViewMessages.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="contextMenuStripMessage.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1013, 17</value>
+  </metadata>
+  <data name="toolStripMenuItemMsgDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemMsgDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="toolStripMenuItemMsgDelete.ToolTipText" xml:space="preserve">
+    <value>Delete the selected message</value>
+  </data>
+  <data name="toolStripMenuItemMsgPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemMsgPreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="toolStripMenuItemMsgPreview.ToolTipText" xml:space="preserve">
+    <value>Preview selected message</value>
+  </data>
+  <data name="toolStripMenuItemMsgCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemMsgCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="toolStripMenuItemMsgCopy.ToolTipText" xml:space="preserve">
+    <value>Copy selected message to Send tab</value>
+  </data>
+  <data name="toolStripMenuItemQueueReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemQueueReceive.Text" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 6</value>
+  </data>
+  <data name="toolStripMenuItemMsgProps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemMsgProps.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="contextMenuStripMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 120</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripMessage.Name" xml:space="preserve">
+    <value>contextMenuStripMessage</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fastObjectListViewMessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 34</value>
+  </data>
+  <data name="fastObjectListViewMessages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 253</value>
+  </data>
+  <data name="fastObjectListViewMessages.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewMessages.Name" xml:space="preserve">
+    <value>fastObjectListViewMessages</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewMessages.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.FastObjectListView, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewMessages.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewMessages.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxRecTrans.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="checkBoxRecTrans.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxRecTrans.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxRecTrans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 293</value>
+  </data>
+  <data name="checkBoxRecTrans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="checkBoxRecTrans.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="checkBoxRecTrans.Text" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="checkBoxRecTrans.ToolTip" xml:space="preserve">
+    <value>Determines whether to use a transaction when receiving from a Public queue only</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRecTrans.Name" xml:space="preserve">
+    <value>checkBoxRecTrans</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRecTrans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRecTrans.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxRecTrans.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelCurrQueue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCurrQueue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCurrQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 9</value>
+  </data>
+  <data name="labelCurrQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="labelCurrQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="labelCurrQueue.Text" xml:space="preserve">
+    <value>Queue:</value>
+  </data>
+  <data name="&gt;&gt;labelCurrQueue.Name" xml:space="preserve">
+    <value>labelCurrQueue</value>
+  </data>
+  <data name="&gt;&gt;labelCurrQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCurrQueue.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;labelCurrQueue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxQueue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 7</value>
+  </data>
+  <data name="textBoxQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 20</value>
+  </data>
+  <data name="textBoxQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="textBoxQueue.ToolTip" xml:space="preserve">
+    <value>Current queue name</value>
+  </data>
+  <data name="&gt;&gt;textBoxQueue.Name" xml:space="preserve">
+    <value>textBoxQueue</value>
+  </data>
+  <data name="&gt;&gt;textBoxQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxQueue.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;textBoxQueue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonRefreshMessages.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonRefreshMessages.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonRefreshMessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 5</value>
+  </data>
+  <data name="buttonRefreshMessages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 23</value>
+  </data>
+  <data name="buttonRefreshMessages.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="buttonRefreshMessages.ToolTip" xml:space="preserve">
+    <value>Refresh current queue</value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshMessages.Name" xml:space="preserve">
+    <value>buttonRefreshMessages</value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshMessages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshMessages.Parent" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonRefreshMessages.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel2.Name" xml:space="preserve">
+    <value>splitContainerDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerDetail</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 317</value>
+  </data>
+  <data name="splitContainerDetail.SplitterDistance" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="splitContainerDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Name" xml:space="preserve">
+    <value>splitContainerDetail</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerDetail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel1.Name" xml:space="preserve">
+    <value>splitContainerReceive.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerReceive</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelRecFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="labelRecFormat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRecFormat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRecFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 11</value>
+  </data>
+  <data name="labelRecFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="labelRecFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="labelRecFormat.Text" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="&gt;&gt;labelRecFormat.Name" xml:space="preserve">
+    <value>labelRecFormat</value>
+  </data>
+  <data name="&gt;&gt;labelRecFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRecFormat.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;labelRecFormat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxRecFormat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="comboBoxRecFormat.Items" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="comboBoxRecFormat.Items1" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="comboBoxRecFormat.Items2" xml:space="preserve">
+    <value>Binary</value>
+  </data>
+  <data name="comboBoxRecFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 6</value>
+  </data>
+  <data name="comboBoxRecFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="comboBoxRecFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRecFormat.Name" xml:space="preserve">
+    <value>comboBoxRecFormat</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRecFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRecFormat.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRecFormat.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxMsgId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxMsgId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 7</value>
+  </data>
+  <data name="textBoxMsgId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 20</value>
+  </data>
+  <data name="textBoxMsgId.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgId.Name" xml:space="preserve">
+    <value>textBoxMsgId</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgId.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgId.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelMsgId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMsgId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMsgId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="labelMsgId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="labelMsgId.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="labelMsgId.Text" xml:space="preserve">
+    <value>Message ID:</value>
+  </data>
+  <data name="&gt;&gt;labelMsgId.Name" xml:space="preserve">
+    <value>labelMsgId</value>
+  </data>
+  <data name="&gt;&gt;labelMsgId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMsgId.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;labelMsgId.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControlReceiveType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="scintillaRecXML.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="scintillaRecXML.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 0</value>
+  </data>
+  <data name="scintillaRecXML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>594, 227</value>
+  </data>
+  <data name="scintillaRecXML.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;scintillaRecXML.Name" xml:space="preserve">
+    <value>scintillaRecXML</value>
+  </data>
+  <data name="&gt;&gt;scintillaRecXML.Type" xml:space="preserve">
+    <value>ScintillaNET.Scintilla, ScintillaNET, Version=3.6.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scintillaRecXML.Parent" xml:space="preserve">
+    <value>tabPageXML</value>
+  </data>
+  <data name="&gt;&gt;scintillaRecXML.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageXML.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageXML.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageXML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>590, 225</value>
+  </data>
+  <data name="tabPageXML.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageXML.Text" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="&gt;&gt;tabPageXML.Name" xml:space="preserve">
+    <value>tabPageXML</value>
+  </data>
+  <data name="&gt;&gt;tabPageXML.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageXML.Parent" xml:space="preserve">
+    <value>tabControlReceiveType</value>
+  </data>
+  <data name="&gt;&gt;tabPageXML.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hexBoxRecHex.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="hexBoxRecHex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="hexBoxRecHex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="hexBoxRecHex.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="hexBoxRecHex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 225</value>
+  </data>
+  <data name="hexBoxRecHex.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;hexBoxRecHex.Name" xml:space="preserve">
+    <value>hexBoxRecHex</value>
+  </data>
+  <data name="&gt;&gt;hexBoxRecHex.Type" xml:space="preserve">
+    <value>Be.Windows.Forms.HexBox, Be.Windows.Forms.HexBox, Version=1.6.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;hexBoxRecHex.Parent" xml:space="preserve">
+    <value>tabPageHex</value>
+  </data>
+  <data name="&gt;&gt;hexBoxRecHex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageHex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageHex.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageHex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 225</value>
+  </data>
+  <data name="tabPageHex.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageHex.Text" xml:space="preserve">
+    <value>Hex</value>
+  </data>
+  <data name="&gt;&gt;tabPageHex.Name" xml:space="preserve">
+    <value>tabPageHex</value>
+  </data>
+  <data name="&gt;&gt;tabPageHex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageHex.Parent" xml:space="preserve">
+    <value>tabControlReceiveType</value>
+  </data>
+  <data name="&gt;&gt;tabPageHex.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxRecText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxRecText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="textBoxRecText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textBoxRecText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxRecText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="textBoxRecText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 225</value>
+  </data>
+  <data name="textBoxRecText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecText.Name" xml:space="preserve">
+    <value>textBoxRecText</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecText.Parent" xml:space="preserve">
+    <value>tabPageText</value>
+  </data>
+  <data name="&gt;&gt;textBoxRecText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 225</value>
+  </data>
+  <data name="tabPageText.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="&gt;&gt;tabPageText.Name" xml:space="preserve">
+    <value>tabPageText</value>
+  </data>
+  <data name="&gt;&gt;tabPageText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageText.Parent" xml:space="preserve">
+    <value>tabControlReceiveType</value>
+  </data>
+  <data name="&gt;&gt;tabPageText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControlReceiveType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 34</value>
+  </data>
+  <data name="tabControlReceiveType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 251</value>
+  </data>
+  <data name="tabControlReceiveType.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;tabControlReceiveType.Name" xml:space="preserve">
+    <value>tabControlReceiveType</value>
+  </data>
+  <data name="&gt;&gt;tabControlReceiveType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlReceiveType.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;tabControlReceiveType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxXSDIn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxXSDIn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxXSDIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 291</value>
+  </data>
+  <data name="textBoxXSDIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 20</value>
+  </data>
+  <data name="textBoxXSDIn.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="textBoxXSDIn.ToolTip" xml:space="preserve">
+    <value>XSD validation file</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDIn.Name" xml:space="preserve">
+    <value>textBoxXSDIn</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDIn.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDIn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonXSDIn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonXSDIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonXSDIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 289</value>
+  </data>
+  <data name="buttonXSDIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="buttonXSDIn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="buttonXSDIn.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="buttonXSDIn.ToolTip" xml:space="preserve">
+    <value>Choose XSD file</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDIn.Name" xml:space="preserve">
+    <value>buttonXSDIn</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDIn.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDIn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonValidateIn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonValidateIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonValidateIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 289</value>
+  </data>
+  <data name="buttonValidateIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="buttonValidateIn.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="buttonValidateIn.ToolTip" xml:space="preserve">
+    <value>Validate message against XSD</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateIn.Name" xml:space="preserve">
+    <value>buttonValidateIn</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateIn.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateIn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 294</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Validate XSD:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel2.Name" xml:space="preserve">
+    <value>splitContainerReceive.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerReceive</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1206, 317</value>
+  </data>
+  <data name="splitContainerReceive.SplitterDistance" type="System.Int32, mscorlib">
+    <value>596</value>
+  </data>
+  <data name="splitContainerReceive.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Name" xml:space="preserve">
+    <value>splitContainerReceive</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.Parent" xml:space="preserve">
+    <value>tabPageReceive</value>
+  </data>
+  <data name="&gt;&gt;splitContainerReceive.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>257, 17</value>
+  </metadata>
+  <data name="tabControlMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="splitContainerSend.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="splitContainerSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="labelQueue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelQueue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelQueue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 294</value>
+  </data>
+  <data name="labelQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="labelQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelQueue.Text" xml:space="preserve">
+    <value>Queue:</value>
+  </data>
+  <data name="&gt;&gt;labelQueue.Name" xml:space="preserve">
+    <value>labelQueue</value>
+  </data>
+  <data name="&gt;&gt;labelQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQueue.Parent" xml:space="preserve">
+    <value>splitContainerSend.Panel1</value>
+  </data>
+  <data name="&gt;&gt;labelQueue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxSelectedSendQueue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxSelectedSendQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 291</value>
+  </data>
+  <data name="textBoxSelectedSendQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="textBoxSelectedSendQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedSendQueue.Name" xml:space="preserve">
+    <value>textBoxSelectedSendQueue</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedSendQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedSendQueue.Parent" xml:space="preserve">
+    <value>splitContainerSend.Panel1</value>
+  </data>
+  <data name="&gt;&gt;textBoxSelectedSendQueue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bufferedTreeViewSendQueues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="contextMenuStripSendQueue.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1210, 17</value>
+  </metadata>
+  <data name="toolStripMenuItemNewQueueRec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemNewQueueRec.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="toolStripMenuItemDeleteQueueRec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemDeleteQueueRec.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="toolStripMenuItemPurge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemPurge.Text" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 6</value>
+  </data>
+  <data name="toolStripMenuItemSendQueueProps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="toolStripMenuItemSendQueueProps.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="contextMenuStripSendQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 98</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripSendQueue.Name" xml:space="preserve">
+    <value>contextMenuStripSendQueue</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripSendQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bufferedTreeViewSendQueues.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bufferedTreeViewSendQueues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 34</value>
+  </data>
+  <data name="bufferedTreeViewSendQueues.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="bufferedTreeViewSendQueues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 251</value>
+  </data>
+  <data name="bufferedTreeViewSendQueues.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewSendQueues.Name" xml:space="preserve">
+    <value>bufferedTreeViewSendQueues</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewSendQueues.Type" xml:space="preserve">
+    <value>MSMQExplorer.BufferedTreeView, MSMQExplorer, Version=1.31.6635.39097, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewSendQueues.Parent" xml:space="preserve">
+    <value>splitContainerSend.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bufferedTreeViewSendQueues.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelSendHost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSendHost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSendHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 10</value>
+  </data>
+  <data name="labelSendHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="labelSendHost.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelSendHost.Text" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="&gt;&gt;labelSendHost.Name" xml:space="preserve">
+    <value>labelSendHost</value>
+  </data>
+  <data name="&gt;&gt;labelSendHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSendHost.Parent" xml:space="preserve">
+    <value>splitContainerSend.Panel1</value>
+  </data>
+  <data name="&gt;&gt;labelSendHost.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonSendConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonSendConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSendConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 6</value>
+  </data>
+  <data name="buttonSendConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 23</value>
+  </data>
+  <data name="buttonSendConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="buttonSendConnect.ToolTip" xml:space="preserve">
+    <value>Refresh queue list</value>
+  </data>
+  <data name="&gt;&gt;buttonSendConnect.Name" xml:space="preserve">
+    <value>buttonSendConnect</value>
+  </data>
+  <data name="&gt;&gt;buttonSendConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSendConnect.Parent" xml:space="preserve">
+    <value>splitContainerSend.Panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonSendConnect.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxSendHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxSendHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 7</value>
+  </data>
+  <data name="textBoxSendHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 20</value>
+  </data>
+  <data name="textBoxSendHost.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="textBoxSendHost.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="textBoxSendHost.ToolTip" xml:space="preserve">
+    <value>Queue Host</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendHost.Name" xml:space="preserve">
+    <value>textBoxSendHost</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendHost.Parent" xml:space="preserve">
+    <value>splitContainerSend.Panel1</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendHost.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel1.Name" xml:space="preserve">
+    <value>splitContainerSend.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerSend</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerSendMsgDetail.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainerSendMsgDetail.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainerSendMsgDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControlSendType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="scintillaSendXML.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="scintillaSendXML.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="scintillaSendXML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 260</value>
+  </data>
+  <data name="scintillaSendXML.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;scintillaSendXML.Name" xml:space="preserve">
+    <value>scintillaSendXML</value>
+  </data>
+  <data name="&gt;&gt;scintillaSendXML.Type" xml:space="preserve">
+    <value>ScintillaNET.Scintilla, ScintillaNET, Version=3.6.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;scintillaSendXML.Parent" xml:space="preserve">
+    <value>tabPageSendXML</value>
+  </data>
+  <data name="&gt;&gt;scintillaSendXML.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonXSDOut.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonXSDOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonXSDOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 265</value>
+  </data>
+  <data name="buttonXSDOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 23</value>
+  </data>
+  <data name="buttonXSDOut.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="buttonXSDOut.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="buttonXSDOut.ToolTip" xml:space="preserve">
+    <value>Choose XSD file</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDOut.Name" xml:space="preserve">
+    <value>buttonXSDOut</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDOut.Parent" xml:space="preserve">
+    <value>tabPageSendXML</value>
+  </data>
+  <data name="&gt;&gt;buttonXSDOut.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelValidateOut.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelValidateOut.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelValidateOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelValidateOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 269</value>
+  </data>
+  <data name="labelValidateOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="labelValidateOut.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelValidateOut.Text" xml:space="preserve">
+    <value>Validate XSD:</value>
+  </data>
+  <data name="&gt;&gt;labelValidateOut.Name" xml:space="preserve">
+    <value>labelValidateOut</value>
+  </data>
+  <data name="&gt;&gt;labelValidateOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelValidateOut.Parent" xml:space="preserve">
+    <value>tabPageSendXML</value>
+  </data>
+  <data name="&gt;&gt;labelValidateOut.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonValidateOut.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonValidateOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonValidateOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 265</value>
+  </data>
+  <data name="buttonValidateOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 23</value>
+  </data>
+  <data name="buttonValidateOut.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonValidateOut.ToolTip" xml:space="preserve">
+    <value>Validate message against XSD</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateOut.Name" xml:space="preserve">
+    <value>buttonValidateOut</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateOut.Parent" xml:space="preserve">
+    <value>tabPageSendXML</value>
+  </data>
+  <data name="&gt;&gt;buttonValidateOut.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxXSDOut.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxXSDOut.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxXSDOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 266</value>
+  </data>
+  <data name="textBoxXSDOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 20</value>
+  </data>
+  <data name="textBoxXSDOut.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="textBoxXSDOut.ToolTip" xml:space="preserve">
+    <value>XSD validation file</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDOut.Name" xml:space="preserve">
+    <value>textBoxXSDOut</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDOut.Parent" xml:space="preserve">
+    <value>tabPageSendXML</value>
+  </data>
+  <data name="&gt;&gt;textBoxXSDOut.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPageSendXML.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageSendXML.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageSendXML.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 288</value>
+  </data>
+  <data name="tabPageSendXML.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageSendXML.Text" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendXML.Name" xml:space="preserve">
+    <value>tabPageSendXML</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendXML.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendXML.Parent" xml:space="preserve">
+    <value>tabControlSendType</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendXML.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hexBoxSendHex.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="hexBoxSendHex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="hexBoxSendHex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="hexBoxSendHex.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="hexBoxSendHex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 288</value>
+  </data>
+  <data name="hexBoxSendHex.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;hexBoxSendHex.Name" xml:space="preserve">
+    <value>hexBoxSendHex</value>
+  </data>
+  <data name="&gt;&gt;hexBoxSendHex.Type" xml:space="preserve">
+    <value>Be.Windows.Forms.HexBox, Be.Windows.Forms.HexBox, Version=1.6.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;hexBoxSendHex.Parent" xml:space="preserve">
+    <value>tabPageSendHex</value>
+  </data>
+  <data name="&gt;&gt;hexBoxSendHex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageSendHex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageSendHex.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageSendHex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 288</value>
+  </data>
+  <data name="tabPageSendHex.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageSendHex.Text" xml:space="preserve">
+    <value>Hex</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendHex.Name" xml:space="preserve">
+    <value>tabPageSendHex</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendHex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendHex.Parent" xml:space="preserve">
+    <value>tabControlSendType</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendHex.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxSendText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxSendText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="textBoxSendText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textBoxSendText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxSendText.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="textBoxSendText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 288</value>
+  </data>
+  <data name="textBoxSendText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendText.Name" xml:space="preserve">
+    <value>textBoxSendText</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendText.Parent" xml:space="preserve">
+    <value>tabPageSendText</value>
+  </data>
+  <data name="&gt;&gt;textBoxSendText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageSendText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageSendText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 288</value>
+  </data>
+  <data name="tabPageSendText.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageSendText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendText.Name" xml:space="preserve">
+    <value>tabPageSendText</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendText.Parent" xml:space="preserve">
+    <value>tabControlSendType</value>
+  </data>
+  <data name="&gt;&gt;tabPageSendText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControlSendType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 0</value>
+  </data>
+  <data name="tabControlSendType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tabControlSendType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>611, 314</value>
+  </data>
+  <data name="tabControlSendType.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;tabControlSendType.Name" xml:space="preserve">
+    <value>tabControlSendType</value>
+  </data>
+  <data name="&gt;&gt;tabControlSendType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlSendType.Parent" xml:space="preserve">
+    <value>splitContainerSendMsgDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tabControlSendType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel1.Name" xml:space="preserve">
+    <value>splitContainerSendMsgDetail.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerSendMsgDetail</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxMsgProps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelSendFormat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSendFormat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSendFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="labelSendFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="labelSendFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="labelSendFormat.Text" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="&gt;&gt;labelSendFormat.Name" xml:space="preserve">
+    <value>labelSendFormat</value>
+  </data>
+  <data name="&gt;&gt;labelSendFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSendFormat.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;labelSendFormat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxSendFormat.Items" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="comboBoxSendFormat.Items1" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="comboBoxSendFormat.Items2" xml:space="preserve">
+    <value>Binary</value>
+  </data>
+  <data name="comboBoxSendFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 75</value>
+  </data>
+  <data name="comboBoxSendFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 21</value>
+  </data>
+  <data name="comboBoxSendFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSendFormat.Name" xml:space="preserve">
+    <value>comboBoxSendFormat</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSendFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSendFormat.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSendFormat.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxUserJournal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxUserJournal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxUserJournal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 222</value>
+  </data>
+  <data name="checkBoxUserJournal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="checkBoxUserJournal.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="checkBoxUserJournal.Text" xml:space="preserve">
+    <value>Use Journal</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserJournal.Name" xml:space="preserve">
+    <value>checkBoxUserJournal</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserJournal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserJournal.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserJournal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxUseTracing.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxUseTracing.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxUseTracing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 199</value>
+  </data>
+  <data name="checkBoxUseTracing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="checkBoxUseTracing.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="checkBoxUseTracing.Text" xml:space="preserve">
+    <value>Use Tracing</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseTracing.Name" xml:space="preserve">
+    <value>checkBoxUseTracing</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseTracing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseTracing.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseTracing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxUseEncryption.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxUseEncryption.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxUseEncryption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 177</value>
+  </data>
+  <data name="checkBoxUseEncryption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="checkBoxUseEncryption.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="checkBoxUseEncryption.Text" xml:space="preserve">
+    <value>Use Encryption</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseEncryption.Name" xml:space="preserve">
+    <value>checkBoxUseEncryption</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseEncryption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseEncryption.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUseEncryption.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxPriority.Items" xml:space="preserve">
+    <value>AboveNormal</value>
+  </data>
+  <data name="comboBoxPriority.Items1" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="comboBoxPriority.Items2" xml:space="preserve">
+    <value>Highest</value>
+  </data>
+  <data name="comboBoxPriority.Items3" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="comboBoxPriority.Items4" xml:space="preserve">
+    <value>Lowest</value>
+  </data>
+  <data name="comboBoxPriority.Items5" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="comboBoxPriority.Items6" xml:space="preserve">
+    <value>VeryHigh</value>
+  </data>
+  <data name="comboBoxPriority.Items7" xml:space="preserve">
+    <value>VeryLow</value>
+  </data>
+  <data name="comboBoxPriority.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 47</value>
+  </data>
+  <data name="comboBoxPriority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 21</value>
+  </data>
+  <data name="comboBoxPriority.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPriority.Name" xml:space="preserve">
+    <value>comboBoxPriority</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPriority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPriority.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPriority.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelPriority.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPriority.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPriority.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="labelPriority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="labelPriority.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="labelPriority.Text" xml:space="preserve">
+    <value>Priority:</value>
+  </data>
+  <data name="&gt;&gt;labelPriority.Name" xml:space="preserve">
+    <value>labelPriority</value>
+  </data>
+  <data name="&gt;&gt;labelPriority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPriority.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;labelPriority.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBoxMsgLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxMsgLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="textBoxMsgLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 20</value>
+  </data>
+  <data name="textBoxMsgLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="textBoxMsgLabel.ToolTip" xml:space="preserve">
+    <value>Message label</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgLabel.Name" xml:space="preserve">
+    <value>textBoxMsgLabel</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgLabel.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;textBoxMsgLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelMSGLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMSGLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMSGLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="labelMSGLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="labelMSGLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelMSGLabel.Text" xml:space="preserve">
+    <value>Label:</value>
+  </data>
+  <data name="&gt;&gt;labelMSGLabel.Name" xml:space="preserve">
+    <value>labelMSGLabel</value>
+  </data>
+  <data name="&gt;&gt;labelMSGLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMSGLabel.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;labelMSGLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBoxTrans.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxTrans.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxTrans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 176</value>
+  </data>
+  <data name="checkBoxTrans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="checkBoxTrans.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="checkBoxTrans.Text" xml:space="preserve">
+    <value>Use Transaction</value>
+  </data>
+  <data name="checkBoxTrans.ToolTip" xml:space="preserve">
+    <value>Determines whether to use a transaction when sending to a Public queue only</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTrans.Name" xml:space="preserve">
+    <value>checkBoxTrans</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTrans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTrans.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxTrans.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkBoxUserDeadLetter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxUserDeadLetter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxUserDeadLetter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 199</value>
+  </data>
+  <data name="checkBoxUserDeadLetter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 17</value>
+  </data>
+  <data name="checkBoxUserDeadLetter.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="checkBoxUserDeadLetter.Text" xml:space="preserve">
+    <value>Use Dead Letter Queue</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserDeadLetter.Name" xml:space="preserve">
+    <value>checkBoxUserDeadLetter</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserDeadLetter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserDeadLetter.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxUserDeadLetter.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelTimeToReceive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTimeToReceive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTimeToReceive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 111</value>
+  </data>
+  <data name="labelTimeToReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="labelTimeToReceive.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="labelTimeToReceive.Text" xml:space="preserve">
+    <value>Time to be received:</value>
+  </data>
+  <data name="&gt;&gt;labelTimeToReceive.Name" xml:space="preserve">
+    <value>labelTimeToReceive</value>
+  </data>
+  <data name="&gt;&gt;labelTimeToReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTimeToReceive.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;labelTimeToReceive.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelTimeReachQueue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTimeReachQueue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTimeReachQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 138</value>
+  </data>
+  <data name="labelTimeReachQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="labelTimeReachQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="labelTimeReachQueue.Text" xml:space="preserve">
+    <value>Time to reach queue:</value>
+  </data>
+  <data name="&gt;&gt;labelTimeReachQueue.Name" xml:space="preserve">
+    <value>labelTimeReachQueue</value>
+  </data>
+  <data name="&gt;&gt;labelTimeReachQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTimeReachQueue.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;labelTimeReachQueue.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="numericUpDownTimeToReachQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 136</value>
+  </data>
+  <data name="numericUpDownTimeToReachQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="numericUpDownTimeToReachQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReachQueue.Name" xml:space="preserve">
+    <value>numericUpDownTimeToReachQueue</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReachQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReachQueue.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReachQueue.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="numericUpDownTimeToReceive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 109</value>
+  </data>
+  <data name="numericUpDownTimeToReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="numericUpDownTimeToReceive.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReceive.Name" xml:space="preserve">
+    <value>numericUpDownTimeToReceive</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReceive.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownTimeToReceive.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBoxTimeReachQueue.Items" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="comboBoxTimeReachQueue.Items1" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="comboBoxTimeReachQueue.Items2" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="comboBoxTimeReachQueue.Items3" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="comboBoxTimeReachQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 135</value>
+  </data>
+  <data name="comboBoxTimeReachQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="comboBoxTimeReachQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeReachQueue.Name" xml:space="preserve">
+    <value>comboBoxTimeReachQueue</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeReachQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeReachQueue.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeReachQueue.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxTimeToReceive.Items" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="comboBoxTimeToReceive.Items1" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="comboBoxTimeToReceive.Items2" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="comboBoxTimeToReceive.Items3" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="comboBoxTimeToReceive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 109</value>
+  </data>
+  <data name="comboBoxTimeToReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="comboBoxTimeToReceive.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeToReceive.Name" xml:space="preserve">
+    <value>comboBoxTimeToReceive</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeToReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeToReceive.Parent" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTimeToReceive.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="groupBoxMsgProps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 10</value>
+  </data>
+  <data name="groupBoxMsgProps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 300</value>
+  </data>
+  <data name="groupBoxMsgProps.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="groupBoxMsgProps.Text" xml:space="preserve">
+    <value>Message Properties</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMsgProps.Name" xml:space="preserve">
+    <value>groupBoxMsgProps</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMsgProps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMsgProps.Parent" xml:space="preserve">
+    <value>splitContainerSendMsgDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMsgProps.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel2.Name" xml:space="preserve">
+    <value>splitContainerSendMsgDetail.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerSendMsgDetail</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerSendMsgDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>927, 314</value>
+  </data>
+  <data name="splitContainerSendMsgDetail.SplitterDistance" type="System.Int32, mscorlib">
+    <value>619</value>
+  </data>
+  <data name="splitContainerSendMsgDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Name" xml:space="preserve">
+    <value>splitContainerSendMsgDetail</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.Parent" xml:space="preserve">
+    <value>splitContainerSend.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSendMsgDetail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel2.Name" xml:space="preserve">
+    <value>splitContainerSend.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerSend</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1206, 314</value>
+  </data>
+  <data name="splitContainerSend.SplitterDistance" type="System.Int32, mscorlib">
+    <value>275</value>
+  </data>
+  <data name="splitContainerSend.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Name" xml:space="preserve">
+    <value>splitContainerSend</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.Parent" xml:space="preserve">
+    <value>tabPageSend</value>
+  </data>
+  <data name="&gt;&gt;splitContainerSend.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="tabPageSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1206, 317</value>
+  </data>
+  <data name="tabPageSend.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageSend.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="&gt;&gt;tabPageSend.Name" xml:space="preserve">
+    <value>tabPageSend</value>
+  </data>
+  <data name="&gt;&gt;tabPageSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSend.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPageSend.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageReceive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="tabPageReceive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1206, 317</value>
+  </data>
+  <data name="tabPageReceive.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageReceive.Text" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="&gt;&gt;tabPageReceive.Name" xml:space="preserve">
+    <value>tabPageReceive</value>
+  </data>
+  <data name="&gt;&gt;tabPageReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageReceive.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPageReceive.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="olvColumnTimestamp.Text" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="olvColumnTimestamp.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="olvColumnEventType.Text" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="olvColumnEventType.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="olvColumnLogEntry.Text" xml:space="preserve">
+    <value>Log Entry</value>
+  </data>
+  <data name="olvColumnLogEntry.Width" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="fastObjectListViewLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="fastObjectListViewLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 3</value>
+  </data>
+  <data name="fastObjectListViewLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1193, 311</value>
+  </data>
+  <data name="fastObjectListViewLog.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewLog.Name" xml:space="preserve">
+    <value>fastObjectListViewLog</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewLog.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.FastObjectListView, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewLog.Parent" xml:space="preserve">
+    <value>tabPageLog</value>
+  </data>
+  <data name="&gt;&gt;fastObjectListViewLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="tabPageLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1206, 317</value>
+  </data>
+  <data name="tabPageLog.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="&gt;&gt;tabPageLog.Name" xml:space="preserve">
+    <value>tabPageLog</value>
+  </data>
+  <data name="&gt;&gt;tabPageLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageLog.Parent" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabPageLog.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="imageListTabs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>397, 17</value>
+  </metadata>
+  <data name="imageListTabs.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA4
+        CAAAAk1TRnQBSQFMAgEBAgEAAcwBDwHMAQ8BEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/8UAAfIB/wkAAvQKAAEa
+        JwABGgFGAf8IAAH/ApMB9AkAAUABtiUAAbYCQAEaAf8EAAH/AfQBGgFGARoBGwFGAZMB9AH/BAAB/wHy
+        AkABkwH/IQAB/wGTBkADRgNAAW8B/wEAAW8DQARGBUABbwH/IAABkwxAAUYB/wIAAf8BbwxAAW8gAAH/
+        AUYKQAGTAf8EAAH/AZMBRglAAUYB9CEAAf8BRgZAAW8BBwH0CAAB/wEaAW8BRgVAAUYB9CMAAf8BRgFA
+        AfIB9AL/DgAC/wL0AUABRgH0JQAB/wFGAf8VAAFGAfQnAAL/FQAB9OQAAUIBTQE+BwABPgMAASgDAAFA
+        AwABEAMAAQEBAAEBBQABgBcAA/8BAAT/BAAE/wQABP8EAAHzAf4BfwHvBAAB4wH8AT8B5wQAAcEB4AEH
+        AYEGAAGABgABAQGABgABAwHABQABgAEPAfABAQQAAcABfwH+AQMEAAHjAv8B5wQAAfMC/wHvBAAE/wQA
+        BP8EAAT/BAAL
+</value>
+  </data>
+  <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 146</value>
+  </data>
+  <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1214, 344</value>
+  </data>
+  <data name="tabControlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Name" xml:space="preserve">
+    <value>tabControlMain</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControlMain.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="automaticUpdater.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1218, 528</value>
+  </data>
+  <data name="labelStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 499</value>
+  </data>
+  <data name="labelStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="labelStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="labelStatus.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Name" xml:space="preserve">
+    <value>labelStatus</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="textBoxStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 496</value>
+  </data>
+  <data name="textBoxStatus.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1161, 27</value>
+  </data>
+  <data name="textBoxStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;textBoxStatus.Name" xml:space="preserve">
+    <value>textBoxStatus</value>
+  </data>
+  <data name="&gt;&gt;textBoxStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxStatus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ribbonMain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ribbonMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonMain.OrbDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ribbonOrbMenuItemOpenXML.Text" xml:space="preserve">
+    <value>Open XML...</value>
+  </data>
+  <data name="ribbonOrbMenuItemOpenOther.Text" xml:space="preserve">
+    <value>Open Other...</value>
+  </data>
+  <data name="ribbonOrbMenuItemSaveAsXml.Text" xml:space="preserve">
+    <value>Save As XML...</value>
+  </data>
+  <data name="ribbonOrbMenuItemSaveAsOther.Text" xml:space="preserve">
+    <value>Save As Other...</value>
+  </data>
+  <data name="ribbonOrbMenuItemExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ribbonMain.OrbDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 292</value>
+  </data>
+  <data name="ribbonMain.OrbDropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonButtonOpenXML.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonOpenXML.Text" xml:space="preserve">
+    <value>Open XML</value>
+  </data>
+  <data name="ribbonButtonCheckForUpdate.Text" xml:space="preserve">
+    <value>Check for Update</value>
+  </data>
+  <data name="ribbonMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1218, 140</value>
+  </data>
+  <data name="ribbonMain.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ribbonButtonPaste.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonPaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="ribbonButtonCut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonCut.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="ribbonButtonCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ribbonButtonFormat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonFormat.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="ribbonPanelEdit.Text" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="ribbonButtonQueueNew.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ribbonButtonQueueDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ribbonButtonQueuePurge.Text" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="ribbonButtonQueueProperties.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="ribbonPanelQueue.Text" xml:space="preserve">
+    <value>Queue</value>
+  </data>
+  <data name="ribbonButtonMsgSend.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ribbonButtonMsgReceive.Text" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="ribbonButtonMsgPreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="ribbonButtonMsgDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ribbonButtonMsgCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ribbonButtonMsgProps.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="ribbonPanelMessages.Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ribbonButtonFind.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonFind.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="ribbonButtonIncSearch.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonIncSearch.Text" xml:space="preserve">
+    <value>Inc Find</value>
+  </data>
+  <data name="ribbonButtonReplace.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonReplace.Text" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="ribbonPanelSearch.Text" xml:space="preserve">
+    <value>XML Search</value>
+  </data>
+  <data name="ribbonButtonAbout.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ribbonButtonUpdate.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ribbonButtonHelp.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ribbonPanelHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ribbonButtonStyle2007.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonStyle2007.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonStyle2007.Text" xml:space="preserve">
+    <value>Office 2007</value>
+  </data>
+  <data name="ribbonButtonStyle2010.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonStyle2010.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonStyle2010.Text" xml:space="preserve">
+    <value>Office 2010</value>
+  </data>
+  <data name="ribbonButtonStyle2013.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonStyle2013.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonStyle2013.Text" xml:space="preserve">
+    <value>Office 2013</value>
+  </data>
+  <data name="ribbonButtonStyle.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonStyle.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="ribbonButtonNormal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonNormal.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonNormal.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ribbonButtonBlue.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonBlue.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonBlue.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="ribbonButtonBlack.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonBlack.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonBlack.Text" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="ribbonButtonGreen.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonGreen.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonGreen.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="ribbonButtonPurple.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonPurple.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonPurple.Text" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="ribbonButtonJellyBelly.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonJellyBelly.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonJellyBelly.Text" xml:space="preserve">
+    <value>JellyBelly</value>
+  </data>
+  <data name="ribbonButtonHalloween.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABpJREFUWEftwQEBAAAAgiD/r25IQAAAAMC5GhAgAAGdeElDAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ribbonButtonHalloween.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonHalloween.Text" xml:space="preserve">
+    <value>Halloween</value>
+  </data>
+  <data name="ribbonButtonTheme.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonTheme.Text" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="ribbonPanelView.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="ribbonButtonSettings.SmallImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ribbonButtonSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ribbonPanelSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ribbonTabMain.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ribbonMain.Text" xml:space="preserve">
+    <value>ribbon1</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.Name" xml:space="preserve">
+    <value>ribbonMain</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Ribbon, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1100, 510</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MSMQ Explorer</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemNewQueueSend.Name" xml:space="preserve">
+    <value>toolStripMenuItemNewQueueSend</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemNewQueueSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemDeleteQueueSend.Name" xml:space="preserve">
+    <value>toolStripMenuItemDeleteQueueSend</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemDeleteQueueSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemQueuePurge.Name" xml:space="preserve">
+    <value>toolStripMenuItemQueuePurge</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemQueuePurge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemQueueProps.Name" xml:space="preserve">
+    <value>toolStripMenuItemQueueProps</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemQueueProps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageListMsmq.Name" xml:space="preserve">
+    <value>imageListMsmq</value>
+  </data>
+  <data name="&gt;&gt;imageListMsmq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvColumnId.Name" xml:space="preserve">
+    <value>olvColumnId</value>
+  </data>
+  <data name="&gt;&gt;olvColumnId.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnLabel.Name" xml:space="preserve">
+    <value>olvColumnLabel</value>
+  </data>
+  <data name="&gt;&gt;olvColumnLabel.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnMachineName.Name" xml:space="preserve">
+    <value>olvColumnMachineName</value>
+  </data>
+  <data name="&gt;&gt;olvColumnMachineName.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnSentTime.Name" xml:space="preserve">
+    <value>olvColumnSentTime</value>
+  </data>
+  <data name="&gt;&gt;olvColumnSentTime.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnArrivedTime.Name" xml:space="preserve">
+    <value>olvColumnArrivedTime</value>
+  </data>
+  <data name="&gt;&gt;olvColumnArrivedTime.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnPriority.Name" xml:space="preserve">
+    <value>olvColumnPriority</value>
+  </data>
+  <data name="&gt;&gt;olvColumnPriority.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnMessageType.Name" xml:space="preserve">
+    <value>olvColumnMessageType</value>
+  </data>
+  <data name="&gt;&gt;olvColumnMessageType.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnTransactionId.Name" xml:space="preserve">
+    <value>olvColumnTransactionId</value>
+  </data>
+  <data name="&gt;&gt;olvColumnTransactionId.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAppSpecific.Name" xml:space="preserve">
+    <value>olvColumnAppSpecific</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAppSpecific.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAuthenticated.Name" xml:space="preserve">
+    <value>olvColumnAuthenticated</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAuthenticated.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAuthenticationProviderName.Name" xml:space="preserve">
+    <value>olvColumnAuthenticationProviderName</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAuthenticationProviderName.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAuthenticationProviderType.Name" xml:space="preserve">
+    <value>olvColumnAuthenticationProviderType</value>
+  </data>
+  <data name="&gt;&gt;olvColumnAuthenticationProviderType.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnCorrelationId.Name" xml:space="preserve">
+    <value>olvColumnCorrelationId</value>
+  </data>
+  <data name="&gt;&gt;olvColumnCorrelationId.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnDigitalSignature.Name" xml:space="preserve">
+    <value>olvColumnDigitalSignature</value>
+  </data>
+  <data name="&gt;&gt;olvColumnDigitalSignature.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnEncryptionAlgorithm.Name" xml:space="preserve">
+    <value>olvColumnEncryptionAlgorithm</value>
+  </data>
+  <data name="&gt;&gt;olvColumnEncryptionAlgorithm.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnHashAlgorithm.Name" xml:space="preserve">
+    <value>olvColumnHashAlgorithm</value>
+  </data>
+  <data name="&gt;&gt;olvColumnHashAlgorithm.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnIsFirstInTransaction.Name" xml:space="preserve">
+    <value>olvColumnIsFirstInTransaction</value>
+  </data>
+  <data name="&gt;&gt;olvColumnIsFirstInTransaction.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnIsLastInTransaction.Name" xml:space="preserve">
+    <value>olvColumnIsLastInTransaction</value>
+  </data>
+  <data name="&gt;&gt;olvColumnIsLastInTransaction.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnLookupId.Name" xml:space="preserve">
+    <value>olvColumnLookupId</value>
+  </data>
+  <data name="&gt;&gt;olvColumnLookupId.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnRecoverable.Name" xml:space="preserve">
+    <value>olvColumnRecoverable</value>
+  </data>
+  <data name="&gt;&gt;olvColumnRecoverable.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnSenderId.Name" xml:space="preserve">
+    <value>olvColumnSenderId</value>
+  </data>
+  <data name="&gt;&gt;olvColumnSenderId.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnSenderVersion.Name" xml:space="preserve">
+    <value>olvColumnSenderVersion</value>
+  </data>
+  <data name="&gt;&gt;olvColumnSenderVersion.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgDelete.Name" xml:space="preserve">
+    <value>toolStripMenuItemMsgDelete</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgPreview.Name" xml:space="preserve">
+    <value>toolStripMenuItemMsgPreview</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgCopy.Name" xml:space="preserve">
+    <value>toolStripMenuItemMsgCopy</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemQueueReceive.Name" xml:space="preserve">
+    <value>toolStripMenuItemQueueReceive</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemQueueReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgProps.Name" xml:space="preserve">
+    <value>toolStripMenuItemMsgProps</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMsgProps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemNewQueueRec.Name" xml:space="preserve">
+    <value>toolStripMenuItemNewQueueRec</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemNewQueueRec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemDeleteQueueRec.Name" xml:space="preserve">
+    <value>toolStripMenuItemDeleteQueueRec</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemDeleteQueueRec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemPurge.Name" xml:space="preserve">
+    <value>toolStripMenuItemPurge</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemPurge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemSendQueueProps.Name" xml:space="preserve">
+    <value>toolStripMenuItemSendQueueProps</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemSendQueueProps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvColumnTimestamp.Name" xml:space="preserve">
+    <value>olvColumnTimestamp</value>
+  </data>
+  <data name="&gt;&gt;olvColumnTimestamp.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnEventType.Name" xml:space="preserve">
+    <value>olvColumnEventType</value>
+  </data>
+  <data name="&gt;&gt;olvColumnEventType.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnLogEntry.Name" xml:space="preserve">
+    <value>olvColumnLogEntry</value>
+  </data>
+  <data name="&gt;&gt;olvColumnLogEntry.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;imageListTabs.Name" xml:space="preserve">
+    <value>imageListTabs</value>
+  </data>
+  <data name="&gt;&gt;imageListTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
+    <value>saveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemOpenXML.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemOpenXML</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemOpenXML.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemOpenOther.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemOpenOther</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemOpenOther.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemSaveAsXml.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemSaveAsXml</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemSaveAsXml.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemSaveAsOther.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemSaveAsOther</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemSaveAsOther.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemExit.Name" xml:space="preserve">
+    <value>ribbonOrbMenuItemExit</value>
+  </data>
+  <data name="&gt;&gt;ribbonOrbMenuItemExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonOrbMenuItem, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOpenXML.Name" xml:space="preserve">
+    <value>ribbonButtonOpenXML</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonOpenXML.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonCheckForUpdate.Name" xml:space="preserve">
+    <value>ribbonButtonCheckForUpdate</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonCheckForUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabMain.Name" xml:space="preserve">
+    <value>ribbonTabMain</value>
+  </data>
+  <data name="&gt;&gt;ribbonTabMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonTab, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelEdit.Name" xml:space="preserve">
+    <value>ribbonPanelEdit</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonPaste.Name" xml:space="preserve">
+    <value>ribbonButtonPaste</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonCut.Name" xml:space="preserve">
+    <value>ribbonButtonCut</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonCopy.Name" xml:space="preserve">
+    <value>ribbonButtonCopy</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonFormat.Name" xml:space="preserve">
+    <value>ribbonButtonFormat</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelQueue.Name" xml:space="preserve">
+    <value>ribbonPanelQueue</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueueNew.Name" xml:space="preserve">
+    <value>ribbonButtonQueueNew</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueueNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueueDelete.Name" xml:space="preserve">
+    <value>ribbonButtonQueueDelete</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueueDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueuePurge.Name" xml:space="preserve">
+    <value>ribbonButtonQueuePurge</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueuePurge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueueProperties.Name" xml:space="preserve">
+    <value>ribbonButtonQueueProperties</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonQueueProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelMessages.Name" xml:space="preserve">
+    <value>ribbonPanelMessages</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelMessages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgSend.Name" xml:space="preserve">
+    <value>ribbonButtonMsgSend</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgReceive.Name" xml:space="preserve">
+    <value>ribbonButtonMsgReceive</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgReceive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgPreview.Name" xml:space="preserve">
+    <value>ribbonButtonMsgPreview</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgDelete.Name" xml:space="preserve">
+    <value>ribbonButtonMsgDelete</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgCopy.Name" xml:space="preserve">
+    <value>ribbonButtonMsgCopy</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgProps.Name" xml:space="preserve">
+    <value>ribbonButtonMsgProps</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonMsgProps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSearch.Name" xml:space="preserve">
+    <value>ribbonPanelSearch</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonFind.Name" xml:space="preserve">
+    <value>ribbonButtonFind</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonFind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonIncSearch.Name" xml:space="preserve">
+    <value>ribbonButtonIncSearch</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonIncSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonReplace.Name" xml:space="preserve">
+    <value>ribbonButtonReplace</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelHelp.Name" xml:space="preserve">
+    <value>ribbonPanelHelp</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonAbout.Name" xml:space="preserve">
+    <value>ribbonButtonAbout</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonUpdate.Name" xml:space="preserve">
+    <value>ribbonButtonUpdate</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonHelp.Name" xml:space="preserve">
+    <value>ribbonButtonHelp</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelView.Name" xml:space="preserve">
+    <value>ribbonPanelView</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle.Name" xml:space="preserve">
+    <value>ribbonButtonStyle</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle2007.Name" xml:space="preserve">
+    <value>ribbonButtonStyle2007</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle2007.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle2010.Name" xml:space="preserve">
+    <value>ribbonButtonStyle2010</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle2010.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle2013.Name" xml:space="preserve">
+    <value>ribbonButtonStyle2013</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonStyle2013.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonTheme.Name" xml:space="preserve">
+    <value>ribbonButtonTheme</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonTheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonNormal.Name" xml:space="preserve">
+    <value>ribbonButtonNormal</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonBlue.Name" xml:space="preserve">
+    <value>ribbonButtonBlue</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonBlue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonBlack.Name" xml:space="preserve">
+    <value>ribbonButtonBlack</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonBlack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonGreen.Name" xml:space="preserve">
+    <value>ribbonButtonGreen</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonGreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonPurple.Name" xml:space="preserve">
+    <value>ribbonButtonPurple</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonPurple.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonJellyBelly.Name" xml:space="preserve">
+    <value>ribbonButtonJellyBelly</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonJellyBelly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonHalloween.Name" xml:space="preserve">
+    <value>ribbonButtonHalloween</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonHalloween.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSettings.Name" xml:space="preserve">
+    <value>ribbonPanelSettings</value>
+  </data>
+  <data name="&gt;&gt;ribbonPanelSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonPanel, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonSettings.Name" xml:space="preserve">
+    <value>ribbonButtonSettings</value>
+  </data>
+  <data name="&gt;&gt;ribbonButtonSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RibbonButton, System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;formMsmqExplorerBindingSource.Name" xml:space="preserve">
+    <value>formMsmqExplorerBindingSource</value>
+  </data>
+  <data name="&gt;&gt;formMsmqExplorerBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMsmqExplorer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="automaticUpdater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1189, 501</value>
+  </data>
+  <data name="automaticUpdater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="automaticUpdater.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;automaticUpdater.Name" xml:space="preserve">
+    <value>automaticUpdater</value>
+  </data>
+  <data name="&gt;&gt;automaticUpdater.Type" xml:space="preserve">
+    <value>wyDay.Controls.AutomaticUpdater, AutomaticUpdater, Version=2.6.18.4, Culture=neutral, PublicKeyToken=437887616030daaf</value>
+  </data>
+  <data name="&gt;&gt;automaticUpdater.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;automaticUpdater.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>526, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <data name="BottomToolStripPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="BottomToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 330</value>
+  </data>
+  <data name="BottomToolStripPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 0</value>
+  </data>
+  <data name="&gt;&gt;BottomToolStripPanel.Name" xml:space="preserve">
+    <value>BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TopToolStripPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TopToolStripPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 25</value>
+  </data>
+  <data name="&gt;&gt;TopToolStripPanel.Name" xml:space="preserve">
+    <value>TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RightToolStripPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="RightToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 25</value>
+  </data>
+  <data name="RightToolStripPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 305</value>
+  </data>
+  <data name="&gt;&gt;RightToolStripPanel.Name" xml:space="preserve">
+    <value>RightToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LeftToolStripPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LeftToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="LeftToolStripPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 305</value>
+  </data>
+  <data name="&gt;&gt;LeftToolStripPanel.Name" xml:space="preserve">
+    <value>LeftToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 305</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Name" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="formMsmqExplorerBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 56</value>
+  </metadata>
+</root>

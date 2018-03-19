@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllFilesFilter" xml:space="preserve">
+    <value>All Files|*.*</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Confirrm Delete</value>
+  </data>
+  <data name="ConfirmDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to deleted the selected message?</value>
+  </data>
+  <data name="ConfirmPurge" xml:space="preserve">
+    <value>Confirm Purge</value>
+  </data>
+  <data name="ConfirmPurgeMessage" xml:space="preserve">
+    <value>Are you sure you want to purge the selected queue? All messages will be deleted and cannot be recovered.</value>
+  </data>
+  <data name="ConfirmQueueDelete" xml:space="preserve">
+    <value>Confirm Delete</value>
+  </data>
+  <data name="ConfirmQueueDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to delete the selected queue?</value>
+  </data>
+  <data name="DragDropError" xml:space="preserve">
+    <value>Error in DragDrop function</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="MessageIn" xml:space="preserve">
+    <value>In from Q:</value>
+  </data>
+  <data name="MessageOut" xml:space="preserve">
+    <value>Out to Q:</value>
+  </data>
+  <data name="MsmqNotInstalled" xml:space="preserve">
+    <value>MSMQ Not Installed</value>
+  </data>
+  <data name="MsmqNotInstalledMessage" xml:space="preserve">
+    <value>MSMQ is not installed on this machine. In order for MSMQ Explorer to access MSMQ queues, it must be enabled on this machine. Do this via Control Panel &gt; Programs &gt; Turn Windows features on and off or via Server Manager. This application will now close.</value>
+  </data>
+  <data name="NotValid" xml:space="preserve">
+    <value>Not Valid!</value>
+  </data>
+  <data name="QueueName" xml:space="preserve">
+    <value>Queue Name</value>
+  </data>
+  <data name="Receive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="SelectAllFile" xml:space="preserve">
+    <value>Select a file to open</value>
+  </data>
+  <data name="SelectXml" xml:space="preserve">
+    <value>Select an XML file to open</value>
+  </data>
+  <data name="SelectXsd" xml:space="preserve">
+    <value>Select an XSD file to open</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="UiError" xml:space="preserve">
+    <value>An error has occurred while creating the UI.</value>
+  </data>
+  <data name="Valid" xml:space="preserve">
+    <value>Valid!</value>
+  </data>
+  <data name="ValidateXSD" xml:space="preserve">
+    <value>ValidateXSD</value>
+  </data>
+  <data name="XmlFilter" xml:space="preserve">
+    <value>XML Files|*.xml</value>
+  </data>
+  <data name="XsdFilter" xml:space="preserve">
+    <value>XSD Files|*.xsd</value>
+  </data>
+	<data name="SaveAsXml" xml:space="preserve">
+    <value>Save as XML</value>
+  </data>
+	<data name="SaveAsOther" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+	<data name="Host" xml:space="preserve">
+    <value>Host: </value>
+  </data>
+	<data name="Fatal_Windows_Forms_Error" xml:space="preserve">
+    <value>Fatal Windows Forms Error</value>
+  </data>
+	<data name="Fatal_Non_UI_Error_Detail" xml:space="preserve">
+    <value>Fatal Non-UI Error</value>
+  </data>
+	<data name="Fatal_Non_UI_Error" xml:space="preserve">
+    <value>Fatal Non-UI Error</value>
+  </data>
+	<data name="Queue" xml:space="preserve">
+    <value>Queue: </value>
+  </data>
+  <data name="FormMsmqExplorer_PreviewMessage_Previewed_message_from_queue__" xml:space="preserve">
+    <value>Previewed message from queue: </value>
+  </data>
+  <data name="FormMsmqExplorer_PreviewMessage_An_error_occurred_while_attempting_to_preview_the_selected_message_" xml:space="preserve">
+    <value>An error occurred while attempting to preview the selected message:</value>
+  </data>
+  <data name="FormMsmqExplorer_InitMainWindow_MSMQ_Explorer_____0___1___2__Revision__3_" xml:space="preserve">
+    <value>MSMQ Explorer -  {0}.{1}.{2} Revision {3}</value>
+  </data>
+  <data name="FormMsmqExplorer_SendMessage_Please_enter_some_message_text_to_send_" xml:space="preserve">
+    <value>Please enter some message text to send!</value>
+  </data>
+  <data name="FormMsmqExplorer_SendMessage_Please_select_a_queue_" xml:space="preserve">
+    <value>Please select a queue!</value>
+  </data>
+  <data name="FormMsmqExplorer_SendMessage_Message_sent_on_queue__" xml:space="preserve">
+    <value>Message sent on queue: </value>
+  </data>
+  <data name="FormMsmqExplorer_SendMessage__to_host__" xml:space="preserve">
+    <value> to host: </value>
+  </data>
+  <data name="FormMsmqExplorer_SendMessage_Send_Error" xml:space="preserve">
+    <value>Send Error</value>
+  </data>
+  <data name="FormMsmqExplorer_SendMessage_An_error_has_occurred_sending_a_message_to_the_queue__If_the_XML_box_is_checked__is_your_XML_correctly_formed_" xml:space="preserve">
+    <value>An error has occurred sending a message to the queue. If the XML box is checked, is your XML correctly formed?</value>
+  </data>
+  <data name="FormMsmqExplorer_ReceiveMessage_Message_received_on_queue__" xml:space="preserve">
+    <value>Message received on queue: </value>
+  </data>
+  <data name="FormMsmqExplorer_ReceiveMessage_An_error_has_occurred_while_receiving_a_message_from_the_queue_" xml:space="preserve">
+    <value>An error has occurred while receiving a message from the queue:</value>
+  </data>
+  <data name="FormMsmqExplorer_ReceiveMessage__from_host__" xml:space="preserve">
+    <value> from host: </value>
+  </data>
+  <data name="FormMsmqExplorer_AddQueueNodeWithChildren_Processing___" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="FormMsmqExplorer_DeleteMessage_Message_deleted_from_queue__" xml:space="preserve">
+    <value>Message deleted from queue: </value>
+  </data>
+  <data name="FormMsmqExplorer_DeleteMessage_An_error_occurred_while_attempting_to_delete_the_selected_message_" xml:space="preserve">
+    <value>An error occurred while attempting to delete the selected message:</value>
+  </data>
+  <data name="FormMsmqExplorer_RefreshRecControls_An_error_has_occurred_while_refreshing_the_queues_from_the_specified_host__" xml:space="preserve">
+    <value>An error has occurred while refreshing the queues from the specified host: </value>
+  </data>
+  <data name="FormMsmqExplorer_RefreshSendControls_Connect_Error" xml:space="preserve">
+    <value>Connect Error</value>
+  </data>
+  <data name="FormMsmqExplorer_PurgeQueue_Purged_queue_" xml:space="preserve">
+    <value>Purged queue </value>
+  </data>
+  <data name="FormMsmqExplorer_PurgeQueue_Purge" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="FormMsmqExplorer_PurgeQueue__on_host__" xml:space="preserve">
+    <value> on host: </value>
+  </data>
+  <data name="FormMsmqExplorer_CreateQueue_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="FormMsmqExplorer_CreateQueue_Failed_to_create_the_new_queue_" xml:space="preserve">
+    <value>Failed to create the new queue:</value>
+  </data>
+  <data name="FormMsmqExplorer_DeleteQueue_Cannot_delete_a_system_subqueue_" xml:space="preserve">
+    <value>Cannot delete a system subqueue.</value>
+  </data>
+  <data name="FormMsmqExplorer_FormatXml_Error_formatting_XML" xml:space="preserve">
+    <value>Error formatting XML</value>
+  </data>
+  <data name="FormMsmqExplorer_FormatXml_An_error_has_occurred_while_formatting_your_XML__Please_ensure_it_is_valid_" xml:space="preserve">
+    <value>An error has occurred while formatting your XML. Please ensure it is valid.</value>
+  </data>
+</root>
