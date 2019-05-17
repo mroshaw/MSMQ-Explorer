@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Life After Siebel")]
 [assembly: AssemblyProduct("MSMQ Explorer")]
-[assembly: AssemblyCopyright("Copyright © Iain Ollerenshaw 2018")]
+[assembly: AssemblyCopyright("Copyright © Iain Ollerenshaw 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -42,6 +42,6 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("1.32.*")]
-[assembly: AssemblyFileVersion("1.32.0.0")]
+[assembly: AssemblyVersion("2.00.*")]
+[assembly: AssemblyFileVersion("2.00.0.0")]
 [assembly: NeutralResourcesLanguage("en")]

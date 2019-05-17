@@ -120,8 +120,11 @@
     <Compile Include="MSMQExplorer.Designer.cs">
       <DependentUpon>MSMQExplorer.cs</DependentUpon>
     </Compile>
+    <Compile Include="MSMQHost.cs" />
     <Compile Include="MSMQLog.cs" />
-    <Compile Include="MSMQMessaging.cs" />
+    <Compile Include="MSMQMessage.cs" />
+    <Compile Include="MSMQQueue.cs" />
+    <Compile Include="MSMQUtils.cs" />
     <Compile Include="NewQueueForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -33,7 +33,10 @@ namespace MSMQExplorer
 
         // Member variables
         private readonly bool _isMsmqInstalled;
-        private readonly MsmqMessaging _msmqMessaging;
+        // private readonly MsmqMessaging _msmqMessaging;
+        private MSMQHost _sendHost;
+        private MSMQHost _receiveHost;
+
         private String _inXsdPath;
         private Boolean _isRecPrivateQueue;
         private Boolean _isSendPrivateQueue;
@@ -94,6 +97,7 @@ namespace MSMQExplorer
                 LoadSettings();
                 InitMainWindow();
                 InitLog();
+
                 // Configure Scintilla controls
                 InitScintilla(scintillaSendXML);
                 InitScintilla(scintillaRecXML);
@@ -117,13 +121,13 @@ namespace MSMQExplorer
                 hexBoxSendHex.ByteProvider = _sendMessageByteProvider;
                 hexBoxRecHex.ByteProvider = _recMessageByteProvider;
 
-                // Initialise MSMQ Messaging class
-                _msmqMessaging = new MsmqMessaging();
-                _isMsmqInstalled = _msmqMessaging.IsMsmqInstalled();
+                // Check for local MSMQ installation
+                _isMsmqInstalled = MSMQUtils.IsMsmqInstalled();
 
                 // Initialise the FindReplace dialog
                 _findReplaceSend = new FindReplace(scintillaSendXML);
                 _findReplaceRec = new FindReplace(scintillaRecXML);
+
                 // Initialise the settings dialog
                 _formSettings = new FormSettings();
                 _formSettings.Hide();
@@ -274,8 +278,8 @@ namespace MSMQExplorer
             _timeToReachQueuePeriod = "Seconds";
             _timeToRecievePeriod = "Seconds";
             _messageLabel = "";
-            _msmqMessaging.RecHostName = _recHostName;
-            _msmqMessaging.SendHostName = _sendHostName;
+            _sendHost.hostName = _recHostName;
+            _receiveHost.hostName = _sendHostName;
             _selectedTab = "Send";
             _useJournal = false;
             _useEncryption = false;
@@ -291,12 +295,17 @@ namespace MSMQExplorer
             RefreshSendQueueList();
         }
 
+        private void InitHosts()
+        {
+
+        }
+
         private void RefreshRecQueueList()
         {
             Cursor = Cursors.WaitCursor;
             try
             {
-                _msmqMessaging.RefreshRecQueueList();
+                _receiveHost.RefreshQueueList(false);
             }
             finally
             {
@@ -309,7 +318,7 @@ namespace MSMQExplorer
             Cursor = Cursors.WaitCursor;
             try
             {
-                _msmqMessaging.RefreshSendQueueList();
+                _sendHost.RefreshQueueList(true);
             }
             finally
             {
@@ -325,8 +334,8 @@ namespace MSMQExplorer
             Cursor = Cursors.WaitCursor;
             try
             {
-                _msmqMessaging.RefreshRecMessageList(_selectedRecQueueName);
-                PopulateMessageList();
+                _receieveHost.
+                _receiveHost.PopulateMessageList();
             }
             finally
             {
