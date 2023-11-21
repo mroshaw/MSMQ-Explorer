@@ -33,7 +33,7 @@ namespace MSMQExplorer
 
         // Member variables
         private readonly bool _isMsmqInstalled;
-        // private readonly MsmqMessaging _msmqMessaging;
+        private readonly MsmqMessaging _msmqMessaging;
         private MSMQHost _sendHost;
         private MSMQHost _receiveHost;
 
@@ -334,7 +334,6 @@ namespace MSMQExplorer
             Cursor = Cursors.WaitCursor;
             try
             {
-                _receieveHost.
                 _receiveHost.PopulateMessageList();
             }
             finally
